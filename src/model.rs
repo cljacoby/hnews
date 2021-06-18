@@ -47,8 +47,6 @@ pub mod firebase {
         submitted: Option<Vec<Id>>,
     }
 
-    // TODO: This is essentially a Listing, at least with respect to what it represents in the data
-    // model. There should be some sort of unification in the API.
     #[derive(Serialize, Deserialize, Debug)]
     pub struct Job {
         /// The item's unique id.
